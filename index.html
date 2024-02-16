@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- ---------------- Created By InCoderWeb ---------------- -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | InCoderWeb</title>
+		<link rel="stylesheet" href="main.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav
+				class="inNavbar container mx-auto flex items-center justify-between py-6 px-6"
+			>
+				<h3 data-aos="fade-down" class="logo text-3xl font-semibold">
+					InCoder
+				</h3>
+
+				<div class="links" data-aos="fade-down">
+					<ul class="flex">
+						<a href="#">
+							<li>Home</li>
+						</a>
+						<a href="#aboutMe">
+							<li>About</li>
+						</a>
+						<a href="#services">
+							<li>Services</li>
+						</a>
+						<a href="#contact">
+							<li>Contact</li>
+						</a>
+					</ul>
+				</div>
+
+				<button class="menuBtn border h-9 w-9">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+			</nav>
+		</header>
+
+		<!-- -------------------- Hero Section --------------------- -->
+		<section class="hero">
+			<div
+				class="container h-full flex justify-center pr-12 flex-col items-end"
+				data-aos="fade-left"
+			>
+				<div style="font-size: 1rem; color: rgb(255 255 255 / 50%)">
+					Full Stack Developer
+				</div>
+				<div class="heroText" style="font-size: xxx-large">
+					I'm Jazz Martin
+				</div>
+				<p
+					class="max-w-sm mb-4 text-right"
+					style="font-size: 0.8rem; color: rgb(255 255 255 / 50%)"
+				>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Officiis sit in voluptas consequatur voluptate
+				</p>
+				<div class="flex">
+					<a href="#aboutMe"
+						><button class="inBtn border py-1 px-2 mx-1">
+							About Me
+						</button></a
+					>
+					<a href="#contact"
+						><button class="inBtn border py-1 px-2 mx-1">
+							Contact Me
+						</button></a
+					>
+				</div>
+			</div>
+
+			<div
+				class="scrollDownWrapper flex justify-center items-center w-full"
+			>
+				<a href="#aboutMe"
+					><div class="scrolldownbtn flex justify-center"></div
+				></a>
+			</div>
+		</section>
+		<!-- -------------------- Hero Section End --------------------- -->
+
+		<!-- -------------------- About Section --------------------- -->
+		<section
+			id="aboutMe"
+			class="flex justify-center !xxl:h-auto items-center flex-wrap text-white mx-auto w-full"
+		>
+			<div class="container w-full px-12 mx-12 aboutCon">
+				<div
+					class="left mb-8 pb-8 xs:pb-0 xs:mb-0"
+					data-aos="fade-right"
+				>
+					<h1 class="text-3xl">About Me</h1>
+					<h2
+						data-aos="flip-up"
+						data-aos-delay="300"
+						class="name px-4 py-1 mt-4 max-w-fit"
+					>
+						Jazz Martin
+					</h2>
+					<p
+						class="max-w-md mt-5"
+						style="
+							color: rgb(255 255 255 / 70%);
+							letter-spacing: 2px;
+						"
+					>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Molestiae expedita tenetur dolore fuga doloremque
+						repellendus culpa. Nam, ipsa? Numquam, quia. Lorem ipsum
+						dolor sit amet.
+					</p>
+
+					<div class="social-buttons">
+						<a
+							href="#"
+							class="social-button social-button--facebook"
+							aria-label="Facebook"
+							data-aos="flip-left"
+							data-aos-delay="300"
+						>
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+						<a
+							href="#"
+							class="social-button social-button--linkedin"
+							aria-label="LinkedIn"
+							data-aos="flip-left"
+							data-aos-delay="300"
+						>
+							<i class="fa-brands fa-linkedin"></i>
+						</a>
+						<a
+							href="#"
+							class="social-button social-button--twitter"
+							aria-label="Twitter"
+							data-aos="flip-left"
+							data-aos-delay="300"
+						>
+							<i class="fa-brands fa-x-twitter"></i>
+						</a>
+						<a
+							href="#"
+							class="social-button social-button--github"
+							aria-label="GitHub"
+							data-aos="flip-left"
+							data-aos-delay="300"
+						>
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<a
+							href="#"
+							class="social-button social-button--mail"
+							aria-label="E-mail"
+							data-aos="flip-left"
+							data-aos-delay="300"
+						>
+							<i class="fa-solid fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+				<div
+					class="right gradient pt-8 mt-8 xs:mt-0 xs:pt-0"
+					data-aos="zoom-in-left"
+				>
+					<img src="./images/profile.jpg" alt="Me" />
+				</div>
+			</div>
+		</section>
+		<!-- -------------------- About Section End --------------------- -->
+
+		<!-- -------------------- Services Section --------------------- -->
+		<section
+			id="services"
+			class="flex justify-center !xxl:h-auto items-center flex-wrap text-white mx-auto w-full"
+		>
+			<div class="container w-full px-12 mx-12">
+				<h1 class="text-3xl">
+					Services <i class="fa-solid fa-angle-right"></i>
+				</h1>
+				<div class="gradient-cards">
+					<div class="card" data-aos="flip-left" data-aos-delay="300">
+						<div class="container-card bg-white-box">
+							<div class="cardIcon white_icon">
+								<i class="fa-solid fa-laptop"></i>
+							</div>
+							<p class="card-title">Design</p>
+							<p class="card-description">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Animi, odit reiciendis. Quam
+								repudiandae deserunt quibusdam
+							</p>
+						</div>
+					</div>
+
+					<div class="card" data-aos="flip-left" data-aos-delay="300">
+						<div class="container-card bg-white-box">
+							<div class="cardIcon white_icon">
+								<i class="fa-solid fa-code"></i>
+							</div>
+							<p class="card-title">Development</p>
+							<p class="card-description">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Animi, odit reiciendis. Quam
+								repudiandae deserunt quibusdam
+							</p>
+						</div>
+					</div>
+
+					<div class="card" data-aos="flip-left" data-aos-delay="300">
+						<div class="container-card bg-white-box">
+							<div class="cardIcon white_icon">
+								<i class="fa-solid fa-lightbulb"></i>
+							</div>
+							<p class="card-title">Innovation</p>
+							<p class="card-description">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Animi, odit reiciendis. Quam
+								repudiandae deserunt quibusdam
+							</p>
+						</div>
+					</div>
+
+					<div class="card" data-aos="flip-left" data-aos-delay="300">
+						<div class="container-card bg-white-box">
+							<div class="cardIcon white_icon">
+								<i class="fa-solid fa-computer"></i>
+							</div>
+							<p class="card-title">Testing</p>
+							<p class="card-description">
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Animi, odit reiciendis. Quam
+								repudiandae deserunt quibusdam
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- -------------------- Services Section End --------------------- -->
+
+		<section id="contact">
+			<div class="left" data-aos="fade-up-right" data-aos-delay="500">
+				<div class="header">
+					<span>Contact Us</span>
+					<h1>Get in touch with us!</h1>
+					<p>Our friendly team would love to hear from you.</p>
+				</div>
+				<div class="body">
+					<div class="doubleInput">
+						<div class="inputWrapper">
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" placeholder="Jhon" />
+						</div>
+						<div class="inputWrapper">
+							<label for="lname">Last Name</label>
+							<input type="text" id="lname" placeholder="Deo" />
+						</div>
+					</div>
+					<div class="inputWrapper">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							placeholder="info@example.com"
+						/>
+					</div>
+					<div class="inputWrapper">
+						<label for="phone">Phone</label>
+						<input
+							type="number"
+							id="phone"
+							placeholder="+1 78956 2567"
+						/>
+					</div>
+					<div class="inputWrapper">
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							placeholder="Enter your message here."
+						></textarea>
+					</div>
+					<p class="terms-services">
+						<input
+							class="input"
+							id="terms-services"
+							type="checkbox"
+						/>
+						<label class="checkbox" for="terms-services"
+							><span>
+								<svg width="12px" height="10px">
+									<use xlink:href="#check"></use></svg></span
+							><span
+								>You agree to our friendly
+								<a href="#" style="text-decoration: underline"
+									>privacy policy</a
+								>.</span
+							></label
+						>
+						<!--SVG Sprites-->
+						<svg class="inline-svg">
+							<symbol id="check" viewbox="0 0 12 10">
+								<polyline
+									points="1.5 6 4.5 9 10.5 1"
+								></polyline>
+							</symbol>
+						</svg>
+					</p>
+					<button type="submit" class="inBtn border py-2 hover:bg-white hover:text-black transition-color px-2 mx-2 w-full">
+						Send Message
+					</button>
+				</div>
+			</div>
+			<div class="right" data-aos="fade-up-left" data-aos-delay="500">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15283611.507223276!2d72.1086554365551!3d20.736584519018294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1707754415195!5m2!1sen!2sin"
+					width="600"
+					height="650"
+					style="-webkit-filter: grayscale(100%); filter: grayscale(100%);"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</section>
+
+		<a href="#" class="backToTop fixed bottom-12 hidden right-10"
+			><i class="fa-solid fa-arrow-up"></i
+		></a>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
